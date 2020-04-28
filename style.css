@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+#header {
+    padding: 1em;
+    margin: 0em;
+    color: white;
+    background-color: black;
+}
+#services {
+    padding: 1em;
+    margin: 0em;
+    color: black;
+    background-color: white;
+}
+#services > h1 {
+    text-align: center; 
+}
+.services {
+    display: flex;
+}
+.services > element {
+    text-align: center;
+    flex-grow: 1;
+    margin: 1em;
+}
+#projects {
+    padding: 1em;
+    margin: 0em;
+    color: black;
+    background-color: white;
+}
+#projects > h1 {
+    text-align: center; 
+}
+.projects {
+    display: flex;
+    width: 100%;
+    left: 20%;
+    flex-direction: column;
+}
+.projects > element {
+    display: flex;
+    justify-content: center;
+    flex-grow: 100%;
+    margin: 1em;
+}
+.projects > element > img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    flex-basis: 50%;
+}
+#social {
+    padding: 1em;
+    margin: 0em;
+    color: white;
+    background-color: black;
+}
+#social > h1 {
+    text-align: center; 
+}
+.social {
+    display: flex;
+}
+.social > element {
+    text-align: center;
+    flex-basis: 30%;
+    margin: 1em;
+}
