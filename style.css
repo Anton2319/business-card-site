@@ -6,15 +6,15 @@ body {
     padding: 1em;
     margin: 0em;
     color: white;
-    background-color: black;
+    background-color: #533747;
 }
 #services {
     padding: 1em;
     margin: 0em;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #5F506B;
 }
-#services > h1 {
+#services > h2 {
     text-align: center; 
 }
 .services {
@@ -29,9 +29,9 @@ body {
     padding: 1em;
     margin: 0em;
     color: black;
-    background-color: white;
+    background-color: #D9E2E3;
 }
-#projects > h1 {
+#projects > h2 {
     text-align: center; 
 }
 .projects {
@@ -55,9 +55,9 @@ body {
     padding: 1em;
     margin: 0em;
     color: white;
-    background-color: black;
+    background-color: #533747;
 }
-#social > h1 {
+#social > h2 {
     text-align: center; 
 }
 .social {
